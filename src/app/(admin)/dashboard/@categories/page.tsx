@@ -1,8 +1,8 @@
 import React from 'react';
-import { getCategories, getCompanies } from '../../../../lib/api';
-import getCountById from '../../../../lib/utils/getCountById';
-import StatCard, { StatCardType } from '../../../components/stat-card';
-import DashboardCard from '../../../components/dashboard-card';
+import { getCategories, getCompanies } from '@/lib/api';
+import getCountById from '@/lib/utils/getCountById';
+import StatCard, { StatCardType } from '@/app/components/stat-card';
+import DashboardCard from '@/app/components/dashboard-card';
 
 export interface PageProps {}
 
